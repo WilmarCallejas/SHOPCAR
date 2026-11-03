@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos compilados
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de respaldo de bases de datos
+*.bak
+*.trn
+
+# Archivos locales de SQL Server
+*.mdf
+*.ldf
